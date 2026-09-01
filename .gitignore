@@ -1,0 +1,14 @@
+# Secretos — nunca se suben. Usar .env.example como plantilla.
+.env
+
+# Entorno virtual de Python
+.venv/
+__pycache__/
+*.pyc
+
+# Grabaciones y documentos generados de reuniones reales (datos de negocio,
+# pueden pesar mucho y no deben compartirse en el repo).
+meetings/
+
+# macOS
+.DS_Store
